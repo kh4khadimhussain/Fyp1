@@ -1,0 +1,35 @@
+body {
+    margin: 40px 0;
+  }
+  .form-horizontal {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #eee;
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .form-heading {
+      background: #00B16A;
+      padding: 10px 15px;
+      h2 {
+        color: #fff;
+        margin: 0;
+      }
+    }
+    .form-group {
+      max-width: 100%;
+      margin: auto;
+      margin: 15px;
+      .form-control:&focus {
+        box-shadow: none;
+      }
+    }
+    .btn {
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  
