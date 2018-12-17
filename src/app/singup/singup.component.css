@@ -1,0 +1,57 @@
+body, input, textarea {
+	font-family: Open Sans, Helvetica, sans-serif;
+	font-size: 22px;
+}
+body {
+	background: gray;
+	color: gray;
+}
+label {
+	display: block;
+	font-weight: 700;
+	margin: 0 0 8px 0;
+	min-width: 50px;
+	font-size: 15px;
+
+}
+input, textarea {
+	border: 1px solid gray;
+	padding: 4px 0;
+	width: 100%;
+	-webkit-appearance: none;
+}
+input[type=submit] {
+	background: green;
+	border: 0;
+	color: #fff;
+	padding: 8px 16px;
+	transition: background 0.2s;
+}
+input[type=submit]:not(:disabled):hover {
+	background: gainsboro;
+}
+input[type=submit]:not(:disabled):active {
+	background: gainsboro;
+}
+input[disabled] {
+	opacity: 0.5;
+}
+.container {
+	background: #fff;
+	margin: auto;
+	padding: 16px;
+	max-width: 600px;
+	background-color:rgb(226, 210, 210);
+	margin-top: 8%;
+	margin-bottom: 10%;
+
+
+}
+.form-group {
+	margin-bottom: 16px;
+}
+input.ng-invalid.ng-dirty,
+textarea.ng-invalid.ng-dirty{
+	border-color: red;
+	box-shadow: 0 0 4px red;
+}

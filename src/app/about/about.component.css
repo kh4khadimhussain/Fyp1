@@ -1,0 +1,37 @@
+div.a {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    font-size: 23%;
+}
+div.b {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+div.c {
+    text-align: center;
+    font-size: 23%;
+
+}
+
+div.c {
+    text-align: center;
+    font-style: oblique;
+}
+div.d {
+    text-align: center;
+    font-style: oblique;
+}
+div.logo {
+    text-align: center;
+}
+div.f {
+    text-align: center;
+    font-style: oblique;
+}
+div.g {
+    text-align: center;
+    font-style: oblique;
+}

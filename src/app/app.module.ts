@@ -11,7 +11,8 @@ import { ContactComponent } from './contact/contact.component';
 import { PakagesComponent } from './pakages/pakages.component';
 import { RouterModule } from '@angular/router';
 import { HeroFormComponent } from './hero-form/hero-form.component';
-
+import { DestinationsComponent } from './destinations/destinations.component';
+import { HttpModule } from "@angular/http";
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,19 +24,22 @@ import { HeroFormComponent } from './hero-form/hero-form.component';
     ContactComponent,
     PakagesComponent,
     SingupComponent,
-    HeroFormComponent
+    HeroFormComponent,
+    DestinationsComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path:"",component: HomeComponent},
-      {path:"signup",component: SingupComponent},
-      {path:"login",component: LoginComponent},
-      {path:"about",component: AboutComponent},
-      {path:"pakages",component: PakagesComponent},
-      {path:"contact",component: ContactComponent}
-      
-    ])
+      { path: "", component: HomeComponent },
+      { path: "signup", component: SingupComponent },
+      { path: "login", component: LoginComponent },
+      { path: "about", component: AboutComponent },
+      { path: "pakages", component: PakagesComponent },
+      { path: "contact", component: ContactComponent },
+      { path: "destinations", component: DestinationsComponent }
+
+    ]),
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

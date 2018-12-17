@@ -1,8 +1,14 @@
 .nav-link{
     font-size:20px;
     margin: 5%;
+
 }
 
-nav {
-    background-color: gainsboro;
-  }
+.w3-bar{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    line-height: 3.42857143;
+    color: #ffffff !important;
+    background-color: green!important;
+
+}

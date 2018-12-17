@@ -1,37 +1,122 @@
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('/assets/hotel/SR.jpg')">
+             <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+                    <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                      <h1 class="w3-xlarge">Search your destination</h1>
+                      <hr class="w3-opacity">
+                      <p> <input type="text" class="w3-block w3-round search-inpt" placeholder="Please Enter your destination here" name="search"></p> 
+                      <p><button class="w3-button w3-block w3-green w3-round" [routerLink]="['../destinations']">Search</button></p>
+                    </div>
+                  </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('/assets/hotel.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Second Slide</h3>
+          <p>This is a description for the second slide.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('/assets/fh.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Third Slide</h3>
+          <p>This is a description for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</header>
+<!-- Page Content-->
+<div class="container" style="margin-bottom: 10%">
+
+    <h1 class="my-4 text-center text-lg-center">Most popular destinations</h1><br><br>
+    <div class="row text-center text-lg-left">
+
+      
+      <div class="col-lg-3 col-md-4 col-xs-6">
+          <div class="grid"> 
+              <figure class="effect-lily">
+                    <img src="/assets/manthokha.jpg" alt="img12"/>
+                    <figcaption>
+                      <div>
+                        <h2>MANTHOKHA WATER <span>FALL KHARMANG BALTISTAN</span></h2>
+                        <p>District Kharmang SKARDU BALTISTAN</p>
+                      </div>
+                      <a href="#">View more</a>
+                    </figcaption>			
+                  </figure>
+             </div> 
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6">
+          <div class="grid"> 
+              <figure class="effect-lily">
+                    <img src="/assets/deosai.jpg" alt="img12"/>
+                    <figcaption>
+                      <div>
+                        <h2>DEOSAI NATIONAL<span>PARK SKARDU BALTISTAN</span></h2>
+                        <p>District Astor SKARDU BALTISTAN</p>
+                      </div>
+                      <a href="#">View more</a>
+                    </figcaption>			
+                  </figure>
+             </div> 
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="grid"> 
+            <figure class="effect-lily">
+                  <img src="/assets/hotel/gh5.jpg" alt="img12"/>
+                  <figcaption>
+                    <div>
+                      <h2>Shangrilla<span>Resorts Skardu BALTISTAN</span></h2>
+                      <p>District SKARDU SKARDU BALTISTAN</p>
+                    </div>
+                    <a href="#">View more</a>
+                  </figcaption>			
+                </figure>
+           </div> 
+    </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+          <div class="grid"> 
+              <figure class="effect-lily">
+                    <img src="/assets/PCB.jpg" alt="img12"/>
+                    <figcaption>
+                      <div>
+                        <h2>PAK CHINA <span>BORDER HUNZA GILGIT</span></h2>
+                        <p>District Hunza Gilgit BALTISTAN</p>
+                      </div>
+                      <a href="#">View more</a>
+                    </figcaption>			
+                  </figure>
+             </div> 
+      </div>
+    </div>
+  </div>
 
 
 
+  <div class="container" style="margin-bottom: 10%" style="background-color:gainsboro">
+
+    <h1 class="my-4 text-center text-lg-center">?????????????</h1><br><br>
 
 
-
-
-<br><br>
-<p>
-Search place. ..
-</p>
-<br><br>
-
-<h3><p style="text-align:center" ><strong>Most Popular visited place in Gilgit Baltistan</strong></p></h3><br>
-
-<a href="https://angular.io/guide/forms">
-  <img src='assets/fh.jpg' hspace="10"  width="15%"  height="15%"/>
-</a>
-
-<a href="https://angular.io/guide/forms">
-  <img src='assets/fh.jpg' hspace="10" width="15%"  height="15%"/>
-</a>
-<a href="https://angular.io/guide/forms">
-  <img src='assets/fh.jpg' hspace="10" width="15%"  height="15%"/>
-</a>
-<a href="https://angular.io/guide/forms">
-  <img src='assets/fh.jpg' hspace="10" width="15%"  height="15%"/>
-</a>
-<a href="https://angular.io/guide/forms">
-  <img src='assets/fh.jpg' hspace="10" width="15%"  height="15%"/>
-</a>
-<a href="https://angular.io/guide/forms">
-  <img src='assets/fh.jpg' hspace="10" width="15%"  height="15%"/>
-</a>
-<p>
-
-  <br>
+  
+  
+  </div>

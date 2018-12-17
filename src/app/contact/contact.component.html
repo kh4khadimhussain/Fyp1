@@ -1,3 +1,19 @@
-<p>
-  contact works!
-</p>
+
+<div class="container" ng-app="ContactForm" style="margin-top: 100px">
+	<h1>Contect Us</h1> 
+	<form name="cf" ng-controller="cfController as cfCtrl" ng-submit="submitForm(cf.$valid)" novalidate>
+		<div class="form-group">
+			<label for="name">Name</label>
+			<input id="name" type="text" name="name" ng-model="name" required>
+		</div>
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input id="email" type="email" name="email">
+		</div>
+		<div class="form-group">
+			<label for="msg">Message</label>
+			<textarea id="msg" name="message" rows="5" ng-model="msg" required></textarea>
+		</div>
+		<input type="submit" value="Send" ng-disabled="cf.$invalid"/>
+	</form>
+</div>
